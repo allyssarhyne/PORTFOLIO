@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rhyne's Portfolio</title>
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color:#819ED4;
+            height: 100vh;
+            margin-top: 100px;
+            margin-left: 80px;
+            margin-right: 80px;
+            font-family: IBM Plex Mono;
+        }
+
+        .heading-box{
+            background-color:#819ED4;
+            position: fixed;
+            top: 0;
+            right: 20px;
+            left: 20px;
+            bottom: 700px;
+            height: 94px;
+            z-index: 9999;
+        
+        }
+
+        .rhyne-img{
+           height: 50px;
+        }
+        
+        .menu-box{
+            display: flex;
+            padding-top: 25px;
+            
+            
+        }
+
+        .home-text,.profile-text,.skills-text,.exp-text,.contact-text{
+            padding-left: 70%;
+            font-size: 20px;
+            text-decoration: none;
+            color: rgb(68, 64, 64);
+        }
+
+
+        .home-text:hover,.profile-text:hover,.skills-text:hover,.exp-text:hover,
+        .contact-text:hover{
+            color: white; 
+            transition: .90s;
+        }
+
+        
+
+        .profile-text,.skills-text,.exp-text,.contact-text{
+            padding-left: 20px;
+        }
+
+        .line-break{
+            margin-top: 40px;
+            bottom: 700px;
+            right: 20px;
+            left: 20px;
+        }
+
+        .grid-box1{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 500px;
+            gap: 10px;
+        }
+
+        .item1{
+            padding-top: 50px;
+            padding-left: 140px;
+        }
+
+        .item2{
+            padding-top: 90px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        .logo-img{
+            width: 515px;
+            height: 511px;
+            border-radius: 370px;
+            box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.20);
+            
+        }
+
+        .logo-img:hover{
+            
+        }
+
+        .description-box{
+            margin-left: 20px;
+        }
+
+        .desc-title{
+            
+            font-size: 50px;
+        }
+
+        .name-desc{
+            color: #6F1717;
+            font-weight: bold;
+            padding-left: 19px;
+        }
+
+        .socmed-img{
+            display: flex;
+            padding-left: 120px;
+            padding-top: 20px;
+        }
+
+        .linkedin-img{
+            height: 60px;
+            padding-left: 250px;
+            padding-top: 50px;
+        }
+
+        .github-img{
+            height: 60px;
+            padding-left: 5px;
+            padding-top: 50px;
+        }
+        
+        .hire-button{
+            margin-top: 120px;
+            margin-left: 320px;
+            width: 250px;
+            height: 60px;
+            border-radius: 50px;
+            border-style: solid;
+            border-color: #837979;
+            background-color: #696161;
+            box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.20);
+            font-size: 20px;
+            font-family: IBM Plex Mono;
+            color: white;
+            cursor: pointer;
+            transition: .90s;
+        }
+
+        .hire-button:hover{
+            background-color: #ffffff;
+            color: rgb(85, 84, 84);
+            transition: .90s;
+            
+        }
+
+        .hire-button:active{
+            background-color: #696161;
+            color: white;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="heading-box">
+        
+        <div class="menu-box">
+            <a class="home-text" href="portfolio.html">Home</a>
+            <a class="profile-text" href="profile.html">Profile</a>
+            <a class="skills-text" href="skills.html">Skills</a>
+            <a class="exp-text" href="experience.html">Experience</a>
+            <a class="contact-text" href="contact.html">Contact</a>
+        </div>
+        <hr class="line-break">
+    </div>
+
+    <div class="grid-box1">
+            <div class="item1">
+                <img class="logo-img" src="images/rhyne.jpg">
+            </div>
+
+            <div class="item2">
+                <div class="description-box">
+                    <p class="desc-title">Hi I'm<span class="name-desc">Rhyne</span></p>
+                    <p>I am a web developer. Sample text sample text sample text sample text sample text
+                        sample text sample text 
+                    </p>
+                </div>
+
+                    <div class="socmed-img">
+                        <a href="https://www.linkedin.com/in/allyssa-rhyne-m-949893286/" target="_blank">
+                            <img class="linkedin-img" src="images/linkedin.png">
+                        </a>
+                    
+                        <a href="https://github.com/allyssarhyne" target="_blank">
+                            <img class="github-img" src="images/github.png">
+                        </a>
+                    </div>
+                <div>
+                    <button class="hire-button">Hire me</button>
+                </div>
+
+            </div>
+    </div>
+</div>
+</body>
+</html>

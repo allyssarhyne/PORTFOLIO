@@ -1,0 +1,233 @@
+html, body{
+    scroll-behavior: smooth;
+}
+
+    body{
+        background-color:#819ED4;
+        height: 100vh;
+        margin-top: 100px;
+        margin-left: 0;
+        margin-right: 0;
+        font-family: IBM Plex Mono;
+    }
+
+    .heading-box{
+        background-color: transparent;
+        backdrop-filter: blur(7px);
+        position: fixed;
+        top: 0;
+        right: 20px;
+        left: 20px;
+        bottom: 700px;
+        height: 94px;
+        z-index: 9999;
+
+    }
+
+    .grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    }
+
+
+    .rhyne-img{
+    height: 50px;
+    }
+
+    .menu-box{
+        display: flex;
+        padding-top: 25px;
+        
+        
+    }
+
+    .home-text,.profile-text,.skills-text,.exp-text,.contact-text{
+        padding-left: 70%;
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(94, 88, 88);
+        
+    }
+
+
+    .home-text:hover,.profile-text:hover,.skills-text:hover,.exp-text:hover,
+    .contact-text:hover{
+        color: white; 
+        transition: .90s;
+    }
+
+
+
+    .profile-text,.skills-text,.exp-text,.contact-text{
+        padding-left: 20px;
+    }
+
+    .line-break{
+        margin-top: 40px;
+        bottom: 700px;
+        right: 20px;
+        left: 20px;
+    }
+
+    .grid-box1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 98vh;
+        gap: 10px;
+    }
+
+    .item1{
+        padding-top: 50px;
+        padding-left: 140px;
+    }
+
+    .item2{
+        padding-top: 90px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .logo-img{
+        width: 515px;
+        height: 511px;
+        border-radius: 370px;
+        box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.20);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        transform: scale(1); /* Initial scale */
+    }
+
+    .logo-img:hover{
+        transform: scale(1.1); /* Increase size slightly */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    }
+
+    .description-box{
+        margin-left: 20px;
+    }
+
+    .desc-title{
+        font-size: 50px;
+    }
+
+    .name-desc{
+        color: #6F1717;
+        font-weight: bold;
+        padding-left: 19px;
+    }
+
+    .socmed-img{
+        display: flex;
+        padding-left: 120px;
+        padding-top: 20px;
+    }
+
+    .linkedin-img{
+        height: 60px;
+        padding-left: 250px;
+        padding-top: 50px;
+    }
+
+    .github-img{
+        height: 60px;
+        padding-left: 5px;
+        padding-top: 50px;
+    }
+
+    .hire-button{
+        margin-top: 120px;
+        margin-left: 320px;
+        width: 250px;
+        height: 60px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: #837979;
+        background-color: #696161;
+        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.20);
+        font-size: 20px;
+        font-family: IBM Plex Mono;
+        color: white;
+        cursor: pointer;
+        transition: .90s;
+    }
+
+    .hire-button:hover{
+        background-color: #ffffff;
+        color: rgb(85, 84, 84);
+        transition: .90s;
+        
+    }
+
+    .hire-button:active{
+        background-color: #696161;
+        color: white;
+    
+    }
+
+    #home {
+        background-color: #819ED4;
+        min-height: 100vh;
+        padding-top: 50px;
+    
+    }
+
+    #profile {
+        background-image: linear-gradient(#819ED4,#263a5f);
+        min-height: 100vh;
+        padding-top: 50px;
+    
+    }
+
+    #skills{
+        background-image: linear-gradient(#263a5f,#131D30);
+        min-height: 100vh;
+        padding-top: 50px;
+        
+    }
+
+    #projects{
+        background-image: linear-gradient(#131D30,#0b101b);
+        min-height: 100vh;
+        padding-top: 50px;
+        
+    }
+
+    #contact{
+        background-image: linear-gradient(#0b101b,#000000);
+        min-height: 100vh;
+        padding-top: 50px;
+        
+    }
+
+    .about-text{
+        margin-top: 80px;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .info-profilee{
+        display: grid;
+        grid-template-columns: 50px 50px;
+        height: 200px;
+        border-color: white;
+        border-style: solid;
+    }
+
+    .title-profile{
+        border-color: white;
+        border-style: solid;
+    }
+
+    .img-profile{
+        border-color: white;
+        border-style: solid;
+    }
+
+    .logo-profile{
+            width: 415px;
+            height: 411px;
+            border-radius: 270px;
+            box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.20);
+            
+    }
